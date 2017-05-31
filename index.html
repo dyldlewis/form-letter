@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Letter</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1> Enter your name to recieve your personal postcard!</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the postcard!</button>
+        </form>
+      </div>
+      <div id="postcard">
+        <h3>Dear <span class="name"></span>,</h3>
+        <p>
+          Hello from Texas. Wish you were here. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+          <span class="name"></span>
+        </p>
+        <p>11512 Ne Manchester Way</p>
+        <p>Vancouver, Washington 98686</p>
+      </div>
+    </div>
+  </body>
+</html>
